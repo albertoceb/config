@@ -118,3 +118,14 @@ else
     eval $(dircolors)
 fi
 alias config='/usr/bin/git --git-dir=/home/aceballo/.config/ --work-tree=/home/aceballo'
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/aceballo/.sdkman"
+[[ -s "/home/aceballo/.sdkman/bin/sdkman-init.sh" ]] && source "/home/aceballo/.sdkman/bin/sdkman-init.sh"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+source /home/aceballo/.dvm/dvm.sh
