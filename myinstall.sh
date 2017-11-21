@@ -31,3 +31,4 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get -y install docker-ce
 curl -sL https://howtowhale.github.io/dvm/downloads/latest/install.sh | sh
+./nerd-fonts-1.2.0/install.sh
