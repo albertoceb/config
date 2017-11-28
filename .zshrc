@@ -23,7 +23,7 @@ compinit
 source /home/aceballo/antigen.zsh
 
 POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
-POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_MODE='nerdfont-complete'
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
