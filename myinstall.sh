@@ -1,13 +1,4 @@
 #!/bin/bash
-sudo apt -y install zsh
-chsh -s $(which zsh)
-sudo apt -y install git
-sudo apt -y install curl
-sudo apt-get -y install build-essential cmake
-sudo apt-get -y install python-dev python3-dev
-sudo apt -y install vim-nox
-sudo apt -y install tmux
-sudo apt install -y libssl-dev libreadline-dev zlib1g-dev
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src
 cd ~
